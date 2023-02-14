@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title>Registration Form</title>
+
+    <style>
+
+      body {
+
+        background-image: url('background-image.jpg');
+
+        background-size: cover;
+
+      }
+
+      form {
+
+        background-color: white;
+
+        padding: 20px;
+
+        margin: 20px auto;
+
+        max-width: 500px;
+
+      }
+
+      label, input {
+
+        display: block;
+
+        margin-bottom: 10px;
+
+      }
+
+      button[type=submit] {
+
+        margin-top: 10px;
+
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>Registration Form</h1>
+
+    <form method="post" action="{{ url_for('submit_form') }}">
+
+      <label for="name">Name:</label>
+
+      <input type="text" name="name" id="name" required>
+
+      
+
+      <label for="section">Section:</label>
+
+      <input type="text" name="section" id="section" required>
+
+      <button type="submit">Submit</button>
+
+    </form>
+
+  </body>
+
+</html>
+
