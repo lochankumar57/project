@@ -2,7 +2,7 @@ $name = $_POST['name'];
 
 $email = $_POST['email'];
 
-$to = 'you@example.com';
+$to = 'sunkaralochankumar@gmail.com';
 
 $subject = 'New form submission';
 
