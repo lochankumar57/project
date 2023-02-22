@@ -10,24 +10,16 @@
 
   <body>
 
-    <form method="post" action="process.php">
+    <form onsubmit="alert('do you want to submit');">
 
       <label for="name">Name:</label>
 
-      <input type="text" name="name"><br>
+      <input type="text" name="name"><br><br>
 
       <label for="email">Email:</label>
 
-      <input type="email" name="email"><br>
-
-      <button onclick="myFunction()" >submit</button>
-      <script>
-      function myFunction() {
-        alert("do you want to submit);
-              }
-      </script>
-
-      <script src="link.js"></script>
+      <input type="email" name="email"><br><br>
+      <input type="submit" name="submit">
 
     </form>
 
